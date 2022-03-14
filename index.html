@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>E-Shopping mall</title>
+   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="bootstrap-icon/bootstrap-icons.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+   <!-- start header -->
+   <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light" >
+         <div class="container">
+           <a class="navbar-brand" href="#">
+              <img src="images/ecommerce-logo-png-11.png" alt="">
+           </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0 home-nav">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#category">Categories</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#lates-product">shop</a>
+               </li>
+             </ul>
+             
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 action-menu">
+               <form class="d-flex search-form">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+                </form>
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">
+                    <i class="bi bi-heart"></i>
+                 </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">
+                    <i class="bi bi-cart4">
+                       <span class="badge bg-danger">1</span>
+                    </i>
+                 </a>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   <i class="bi bi-person"></i>
+                 </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">log In</a></li>
+                   <li><a class="dropdown-item" href="#">Registar</a></li>
+                 </ul>
+               </li>
+             </ul>
+             
+           </div>
+         </div>
+       </nav>
+   </header>
+   <!-- end header -->
+
+   <!-- start slider section -->
+   <section class="slider-section bg-light">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+         <div class="carousel-inner">
+           <div class="container">
+            <div class="carousel-item active">
+               <div class="row">
+                  <div class="col-lg-6 slider-text">
+                     <h2 class="text-success">Order <span>Online</span>, Save Your <span>Time</span></h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem quibusdam odio amet reiciendis nesciunt natus ipsam repudiandae asperiores quasi!</p>
+                     <a href="" class="btn-order-now btn">Order Now
+                        <i class="bi bi-arrow-right"></i>
+                     </a>
+                  </div>
+                  <div class="col-lg-6 slider-img">
+                     <img src="images/product/f1.png" alt="">
+                  </div>
+               </div>
+             </div>
+             <div class="carousel-item">
+               <div class="row">
+                  <div class="col-lg-6 slider-text">
+                     <h2 class="text-success">Order <span>Online</span>, Save Your <span>Time</span></h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem quibusdam odio amet reiciendis nesciunt natus ipsam repudiandae asperiores quasi!</p>
+                     <a href="" class="btn-order-now btn">Order Now
+                        <i class="bi bi-arrow-right"></i>
+                     </a>
+                  </div>
+                  <div class="col-lg-6 slider-img">
+                     <img src="images/product/f3.png" alt="">
+                  </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+   </section>
+   <!-- end slider section -->
+
+   <!-- start Category Product -->
+   <section class="category-product" id="category">
+     <div class="container">
+       <div class="section-title text-center">
+         <h2>Category Product</h2>
+         <p class="text-muted">This product is very nice and well product, so buy it now</p>
+       </div>
+       <div class="row">
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm">
+             <div class="card-body text-center">
+                <img src="images/product/product22.png" alt="">
+                <h2>Carrot</h2>
+                <button class="view-all-btn">View All
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+               <img src="images/product/product23.png" alt="">
+               <h2>Onion</h2>
+               <button class="view-all-btn">View All
+                 <i class="bi bi-arrow-right"></i>
+               </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+               <img src="images/product/product28.png" alt="">
+               <h2>Capsicum</h2>
+               <button class="view-all-btn">View All
+                 <i class="bi bi-arrow-right"></i>
+               </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+               <img src="images/product/product27.png" alt="">
+               <h2>Broccoli</h2>
+               <button class="view-all-btn">View All
+                 <i class="bi bi-arrow-right"></i>
+               </button>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
+   </section>
+   <!-- end Category Product -->
+
+   <!-- start banner section -->
+   <section class="banner">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="item banner-1">
+            <div class="banner-text">
+              <h5>Fresh Fruits</h5>
+              <h2>Healthy Fruits</h2>
+              <p>Get 20% OFF Selected Product </p>
+              <button class="banner-btn bg-success">Order Now</button>
+            </div>
+            <div class="banner-img">
+              <img src="images/product/f3.png" alt="">
+            </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+          <div class="item banner-1">
+            <div class="banner-text">
+              <h5>Fresh Fruits</h5>
+              <h2>Healthy vagetables</h2>
+              <p>Get 20% OFF Selected Product </p>
+              <button class="banner-btn bg-success">Order Now</button>
+            </div>
+            <div class="banner-img">
+              <img src="images/product/product27.png" alt="">
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
+   </section>
+   <!-- end banner section -->
+
+   <!-- start lates product -->
+   <section class="lates-product bg-light" id="lates-product">
+     <div class="container">
+        <div class="l-text text-center">
+          <h2>Made For You</h2>
+          <h4>( vagetables )</h4>
+          <p class="text-muted">This is a latest product for the e-commers so, buy now-</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body text-center">
+                <img src="images/product/product1.png" alt="">
+                <h4>Organic Rice(1kg)</h4>
+                <div class="rating mt-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <h4 class="mt-3">৳200</h4>
+                <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                  <button class="btn btn-outline-success">
+                    <i class="bi bi-cart4 mx-2"></i> ADD To CARD</button>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body text-center">
+                <img src="images/product/product2.png" alt="">
+                <h4>Fresh Egg (4 pcs)</h4>
+                <div class="rating mt-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <h4 class="mt-3">৳50</h4>
+                <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                  <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body text-center">
+                <img src="images/product/product4.png" alt="">
+                <h4>Onion (1 kg)</h4>
+                <div class="rating mt-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <h4 class="mt-3">৳220</h4>
+                <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                  <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body text-center">
+                <img src="images/product/product26.png" alt="">
+                <h4>Organic Potato (1kg)</h4>
+                <div class="rating mt-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <h4 class="mt-3">৳80</h4>
+                <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                  <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body text-center">
+                <img class="img-down" src="images/shop/coriander-404x404.jpg" alt="">
+                <h4>New coriander (1 bundle)</h4>
+                <div class="rating mt-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <h4 class="mt-3">৳200</h4>
+                <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                  <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body text-center">
+                <img class="img-down" src="images/shop/red-radish-404x404.jpg" alt="">
+                <h4>Red-radish (4pcs)</h4>
+                <div class="rating mt-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <h4 class="mt-3">৳60</h4>
+                <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                  <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body text-center">
+                <img class="img-down" src="images/shop/cauliflower-404x404.jpg" alt="">
+                <h4>cauliflower (1kg)</h4>
+                <div class="rating mt-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <h4 class="mt-3">৳120</h4>
+                <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                  <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body text-center">
+                <img class="img-down" src="images/shop/bottle-gourd-500x500-1-404x404.jpg" alt="">
+                <h4>Bottle-gourd (2pcs)</h4>
+                <div class="rating mt-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <h4 class="mt-3">৳150</h4>
+                <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                  <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+   </section>
+   <!-- end lates product -->
+
+   <!-- start most sell product -->
+   <section class="lates-product mostsell-product">
+    <div class="container">
+       <div class="l-text text-center">
+         <h2>Made For You</h2>
+         <h4>( Fruits )</h4>
+         <p class="text-muted">This is a latest product for the e-commers so, buy now-</p>
+       </div>
+       <div class="row">
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm bg-light">
+             <div class="card-body text-center">
+               <img src="images/product/f4.png" alt="">
+               <h4>Stovery (1kg)</h4>
+               <div class="rating mt-3">
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+               </div>
+               <h4 class="mt-3">৳850</h4>
+               <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                 <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                 <i class="bi bi-heart"></i>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm bg-light">
+             <div class="card-body text-center">
+               <img src="images/product/product31.png" alt="">
+               <h4>Fresh Banana (4 pcs)</h4>
+               <div class="rating mt-3">
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+               </div>
+               <h4 class="mt-3">৳50</h4>
+               <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                 <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                 <i class="bi bi-heart"></i>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm bg-light">
+             <div class="card-body text-center">
+               <img src="images/product/product33.png" alt="">
+               <h4>Orange (4 pcs)</h4>
+               <div class="rating mt-3">
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+               </div>
+               <h4 class="mt-3">৳100</h4>
+               <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                 <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                 <i class="bi bi-heart"></i>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm bg-light">
+             <div class="card-body text-center">
+               <img src="images/product/product34.png" alt="">
+               <h4>Fresh Graps Potato (1kg)</h4>
+               <div class="rating mt-3">
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+               </div>
+               <h4 class="mt-3">৳360</h4>
+               <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                 <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                 <i class="bi bi-heart"></i>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm bg-light">
+             <div class="card-body text-center">
+               <img class="img-down" src="images/product/product30.png" alt="">
+               <h4>Apple (1kg)</h4>
+               <div class="rating mt-3">
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+               </div>
+               <h4 class="mt-3">৳360</h4>
+               <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                 <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                 <i class="bi bi-heart"></i>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm bg-light">
+             <div class="card-body text-center">
+               <img class="img-down" src="images/product/product32.png" alt="">
+               <h4>Guava (4pcs)</h4>
+               <div class="rating mt-3">
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+               </div>
+               <h4 class="mt-3">৳120</h4>
+               <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                 <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                 <i class="bi bi-heart"></i>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm bg-light">
+             <div class="card-body text-center">
+               <img class="img-down" src="images/product/f3.png" alt="">
+               <h4>Black Graps (1kg)</h4>
+               <div class="rating mt-3">
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+               </div>
+               <h4 class="mt-3">৳1050</h4>
+               <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                 <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                 <i class="bi bi-heart"></i>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-md-6">
+           <div class="card border-0 shadow-sm bg-light">
+             <div class="card-body text-center">
+               <img class="img-down" src="images/product/product24.png" alt="">
+               <h4>Organic Pepe (2pcs)</h4>
+               <div class="rating mt-3">
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+                 <i class="bi bi-star-fill text-warning"></i>
+               </div>
+               <h4 class="mt-3">৳150</h4>
+               <div class="l-card-btn mt-4 justify-content-between d-flex align-items-center px-4">
+                 <button class="btn btn-outline-success"><i class="bi bi-cart4 mx-2"></i>ADD To CARD</button>
+                 <i class="bi bi-heart"></i>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+    </div>
+  </section>
+   <!-- end most sell product -->
+
+   <!-- start promotion banner -->
+   <section class="promo-banner position-relative">
+     <div class="container">
+      <img class="w-100" src="images/banner.jpg" alt="">
+      <h2 class="text-success">Order Online Save Your Time</h2>
+     </div>
+   </section>
+   <!-- end promotion banner -->
+
+   <!-- start footer section -->
+   <footer class="border-top pt-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-3">
+           <div class="foot-item">
+            <img src="images/ecommerce-logo-png-11.png" height="40" alt="">
+            <h4 class="mt-4">Get the app</h4>
+            <p class="text-muted mt-3">NEfresh App is now available on Google Play and App store.Get it now.</p>
+            <img class="mt-3" src="images/store1.png" alt="">
+            <img src="images/store2.png" alt="">
+           </div>
+         </div>
+         <div class="col-lg-3">
+           <div class="foot-item">
+             <h4>Information</h4>
+             <ul class="footer-list">
+               <li><a href="">About us</a></li>
+               <li><a href="">Shipping Policy</a></li>
+               <li><a href="">Terms & condition</a></li>
+               <li><a href="">Privacy Policy</a></li>
+               <li><a href="">Contact Us</a></li>
+             </ul>
+           </div>
+         </div>
+         <div class="col-lg-3">
+          <div class="foot-item">
+            <h4>User Area</h4>
+            <ul class="footer-list">
+              <li><a href="">My Account</a></li>
+              <li><a href="">My Cart</a></li>
+              <li><a href="">LogIn</a></li>
+              <li><a href="">CheckOut</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="foot-item">
+            <h4>Contact Info</h4>
+            <p class="text-muted">+09564822354</p>
+            <p class="text-muted">Head Office, Bangladesh Sylhet-3100, Dokshmin Surma, road-23/45</p>
+            <p class="text-muted">Support@eshop.com</p>
+          </div>
+        </div>
+       </div>
+       <hr>
+       <div class="copyright-text text-center mt-3 p-3">
+         <p>Copyright @2022 <span class="text-danger fw-bolder"></span>Mehedi Hasan Shanto</p>
+       </div>
+     </div>
+   </footer>
+   <!-- end footer section -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

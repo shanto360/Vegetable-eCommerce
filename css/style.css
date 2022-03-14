@@ -1,0 +1,275 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+/* start header */
+header nav{
+   background-color: #fff;
+   box-shadow: 0 0 5px #4444;
+}
+header nav .navbar-brand{
+   margin-right: 25px;
+}
+header nav .navbar-brand img{
+   width: 180px;
+}
+header nav ul.home-nav li a {
+   font-size: 18px;
+}
+header nav form.search-form{
+   width: 450px;
+   margin-right: 80px;
+   position: relative;
+   align-items: center;
+}
+header nav form.search-form input{
+   border-radius: 50px;
+   height: 45px;
+   width: 100%;
+}
+header nav form.search-form .btn{
+   height: 50px;
+   width: 120px;
+   position: absolute;
+   right: 0;
+   background-color: orange;
+   color: #fff;
+   border: 1px solid orange;
+   border-radius: 50px;
+}
+header nav ul.action-menu li{
+   margin-left: 20px;
+}
+header nav ul.action-menu li a i{
+   font-size: 20px;
+}
+header nav ul.action-menu li a i.bi-cart4{
+   position: relative;
+   font-size: 25px;
+}
+header nav ul.action-menu li a i span{
+   position: absolute;
+   top: -40%;
+   left: 50%;
+   font-size: 12px;
+   border-radius: 50px;
+}
+/* end header */
+
+/* start slider section */
+section.slider-section .row{
+   margin: 80px 0;
+}
+section.slider-section .slider-text h2{
+   font-size: 75px;
+   font-weight: bolder;
+   width: 460px;
+}
+section.slider-section .slider-text span{
+   color: orange;
+}
+section.slider-section .slider-text p{
+   width: 550px;
+   font-size: 20px;
+   margin-top: 30px;
+   color: rgb(58, 57, 57);
+}
+section.slider-section .slider-text a{
+   background-color: rgb(255, 223, 164);
+   border-radius: 50px;
+   color: rgb(216, 140, 0);
+   /* width: 200px; */
+   padding: 5px 45px;
+   font-weight: bold;
+   font-size: 20px;
+   margin-top: 50px;
+}
+section.slider-section .slider-text a:hover{
+   box-shadow: 2px 2px 5px #ff9944;
+}
+section.slider-section .slider-img img{
+   width: 700px;
+   height: 520px;
+}
+
+/* end slider section */
+
+
+/* start category product */
+section.category-product{
+   padding: 50px 0;
+}
+section.category-product .section-title h2{
+   text-shadow: 1px 1px 2px #4444;
+   font-size: 35px;
+}
+section.category-product .card{
+   background-color: #fafafa;
+   overflow: hidden;
+   margin-top: 50px;
+   border-radius: 10px;
+}
+section.category-product .card img{
+   height: 150px;
+   margin-bottom: 40px;
+   margin-top: 50px;
+   transition: .5s;
+}
+section.category-product .card h2{
+   text-shadow: 1px 1px 5px #4444;
+   margin-bottom: 40px;
+   font-size: 25px;
+}
+section.category-product .card .view-all-btn{
+   padding: 8px 50px;
+   background-color: var(--bs-success);
+   border-radius: 50px;
+   color: #fff;
+   border: none;
+}
+section.category-product .card .view-all-btn:hover{
+   box-shadow: 2px 2px 5px #098d40;
+}
+section.category-product .card:hover img{
+   transform: scale(1.2);
+}
+
+/* end category product */
+
+/* start banner section */
+
+section.banner .row{
+   margin-bottom: 50px;
+}
+section.banner .banner-1{
+   border: none;
+   margin-top: 50px;
+   border-radius: 10px;
+   padding: 50px;
+   display: flex;
+   background-color: rgb(238, 238, 253);
+   height: 320px;
+}
+
+section.banner .banner-text h5{
+   color:rgb(240, 92, 92);
+   font-weight: bolder;
+   margin-bottom: 20px;
+}
+section.banner .banner-text h2{
+   font-weight: bolder;
+   margin-bottom: 30px;
+   width: 150px;
+}
+section.banner .banner-text p{
+   width: 200px;
+}
+section.banner .banner-text .banner-btn{
+   padding: 7px 20px;
+   border: none;
+   color: #fff;
+   text-transform: uppercase;
+   border-radius: 50px;
+   font-weight: bold;
+}
+
+section.banner .banner-1 .banner-img img{
+   height: 100%;
+   width: 100%;
+}
+section.banner .banner-text .banner-btn:hover{
+   box-shadow: 2px 2px 5px #098d40;
+}
+/* end banner section */
+
+/* start lates-product section */
+section.lates-product .card{
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+   overflow: hidden;
+}
+section.lates-product .l-text{
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+section.lates-product .l-text h2{
+   font-size: 30px;
+   font-weight: bolder;
+}
+section.lates-product .card .card-body img{
+   height: 120px;
+   transition: 0.5s;
+   margin-top: 20px;
+}
+section.lates-product .card .card-body img.img-down{
+   width: 160px;
+}
+section.lates-product .card:hover .card-body img{
+   transform: scale(1.2);
+}
+section.lates-product .card-body h4{
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 20px;
+}
+section.lates-product .card-body .l-card-btn .btn{
+   border-radius: 50px;
+}
+/* end lates-product section */
+
+
+/* start most-sell product */
+section.mostsell-product{
+   margin-bottom: 50px;
+}
+/* end most-sell product */
+
+
+/* start promotion banner */
+section.promo-banner{
+   margin-bottom: 100px;
+}
+section.promo-banner h2{
+   margin-top: -20%;
+   margin-left: 8%;
+   font-size: 59px;
+   font-weight: bolder;
+   width: 370px;
+}
+/* end promotion banner */
+
+
+/* start footer */
+footer .foot-item h4{
+   font-weight: bolder;
+   margin: 20px 0;
+}
+footer .foot-item ul.footer-list{
+   margin: 0;
+   padding: 0 19px;
+}
+footer .foot-item ul li{
+   margin-top: 10px;
+}
+footer .foot-item ul li a{
+   text-decoration: none;
+   color:rgb(58, 57, 57);
+   transition: all .3s ease;
+}
+footer .foot-item ul li a:hover{
+   color: orange;
+   padding-left: 7px;
+}
+footer .copyright-text p{
+   font-size: 18px;
+}
+/* end footer */
+
